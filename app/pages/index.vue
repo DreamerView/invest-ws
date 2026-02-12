@@ -8,6 +8,7 @@
         <Teams />
         <Reviews />
         <News />
+        <Footer />
     </div>
 </template>
 
@@ -20,4 +21,5 @@
     import Teams from '~/template/block/teams.vue';
     import Reviews from '~/template/block/reviews.vue';
     import News from '~/template/block/news.vue';
+import Footer from '~/template/block/footer.vue';
 </script>
