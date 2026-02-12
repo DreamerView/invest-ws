@@ -7,7 +7,7 @@
                     <span>Testimonials</span>
                 </div>
             </div>
-            <div class="row mt-5 g-5">
+            <div class="row mt-1 g-5">
                 <div v-for="list in reviews_list" class="col-lg-4 col-md-6">
                     <h1 class="h4" style="font-weight: 400;">"Advisory has been a game-changer for our businesses. With its comprehesive financial management tools, we've been able to streamline our processes and make more informed decisions. The customer support team is also top-notch"</h1>
                     <div class="d-flex gap-4 mt-4">

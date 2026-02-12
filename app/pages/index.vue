@@ -7,6 +7,7 @@
         <Discover />
         <Teams />
         <Reviews />
+        <News />
     </div>
 </template>
 
@@ -18,4 +19,5 @@
     import Discover from '~/template/block/discover.vue';
     import Teams from '~/template/block/teams.vue';
     import Reviews from '~/template/block/reviews.vue';
+    import News from '~/template/block/news.vue';
 </script>

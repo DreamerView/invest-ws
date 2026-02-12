@@ -23,6 +23,7 @@
                             :title="list?.author || `Unknown`" 
                             class="w-100 h-auto bg-body-secondary rounded-4" 
                             style="aspect-ratio: 1;object-fit: cover;" 
+                            loading="lazy"
                             alt=""
                         />
                         <div class="position-absolute w-100 p-4" style="bottom:0">

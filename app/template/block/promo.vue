@@ -18,6 +18,7 @@
                 "
                 sizes="(max-width: 768px) 95vw, 1296px"
                 alt=""
+                loading="lazy"
             />
         </div>
     </div>
