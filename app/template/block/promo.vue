@@ -20,7 +20,7 @@
                 alt=""
                 loading="lazy"
             /> -->
-            <video title="Автор видео: Gustavo Fring: https://www.pexels.com/ru-ru/video/6285688/" loading="lazy" style="aspect-ratio: 12/6;object-fit: cover;"  class="w-100 h-auto bg-body-secondary rounded-4" src="/img/promo.mp4" autoplay muted loop="true""></video>
+            <video title="Автор видео: Gustavo Fring: https://www.pexels.com/ru-ru/video/6285688/" loading="lazy" style="aspect-ratio: 12/6;object-fit: cover;"  class="w-100 h-auto bg-body-secondary rounded-4" src="/img/promo.mp4" autoplay muted loop="true" playsinline></video>
         </div>
     </div>
 </template>
