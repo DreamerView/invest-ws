@@ -1,10 +1,25 @@
 <template>
-    <div class="container-xxl mt-5 pt-5">
+    <div class="container mt-5 pt-md-5 px-4 px-lg-0">
         <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-5 col-sm-4 col-12">
-                <div class="w-100 h-auto bg-body-secondary rounded-4" style="aspect-ratio: 1;"></div>
+            <div class="col-xl-6 col-lg-5 col-12">
+                <div class="w-100 h-auto bg-body-secondary rounded-4" style="aspect-ratio: 1;">
+                    <img 
+                        src="/img/slides/img-648.webp" 
+                        srcset="
+                            /img/slides/img-280.webp 280w,
+                            /img/slides/img-400.webp 400w,
+                            /img/slides/img-520.webp 520w,
+                            /img/slides/img-648.webp 648w
+                        "
+                        sizes="(max-width: 768px) 90vw, 648px"
+                        loading="lazy" 
+                        class="w-100 h-auto bg-body-secondary rounded-4" 
+                        title="Фотограф: Hanna Pad: https://www.pexels.com/ru-ru/photo/6802046/" 
+                        style="aspect-ratio: 1;object-fit: cover;" 
+                        alt=""/>
+                </div>
             </div>
-            <div class="col-xl-6 col-lg-7 col-sm-8 col-12 px-md-5 py-sm-4 pt-4 d-flex flex-column gap-lg-5 gap-3">
+            <div class="col-xl-6 col-lg-7 col-12 px-md-5 py-sm-4 pt-4 d-flex flex-column gap-lg-5 gap-3">
                 <div class="d-flex flex-column gap-3">
                     <div class="d-flex align-items-center gap-3">
                         <div style="width:0.6rem;height:0.6rem" class="rounded-circle bg-dark"></div>
@@ -14,7 +29,7 @@
                 </div>
                 <p class="text-secondary">We are dedicated to revolutionizing the way individuals and businesses manage their finances. Our team is commited to providing intuitive and innovative solutions that empower our users to achieve financial success.</p>
                 <div>
-                    <button class="btn btn-dark btn-lg rounded-4 py-3 px-4">Get Started</button>
+                    <button class="btn btn-dark btn-lg rounded-4 py-md-3 px-md-4">Get Started</button>
                 </div>
             </div>
         </div>

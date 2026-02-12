@@ -5,6 +5,7 @@
         <Stats />
         <Slide />
         <Discover />
+        <Teams />
     </div>
 </template>
 
@@ -14,4 +15,5 @@
     import Slide from '~/template/block/slide.vue';
     import Stats from '~/template/block/stats.vue';
     import Discover from '~/template/block/discover.vue';
+    import Teams from '~/template/block/teams.vue';
 </script>

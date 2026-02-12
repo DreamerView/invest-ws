@@ -1,5 +1,5 @@
 <template>
-    <header class="container-xxl my-4">
+    <header class="container my-4">
         <div class="row align-items-center">
             <div class="col-md-2 col-6 order-md-1 order-1">
                 <img src="/logo.png" style="max-width:100px;width:100%;" alt=""/>
