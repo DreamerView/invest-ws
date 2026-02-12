@@ -5,7 +5,7 @@
             <p class="text-secondary text-center mt-4">Founded by data experts, we create cutting-edge SaaS analytics platforms tailored for businesses of all sizes</p>
         </div>
         <div class="w-100 h-auto bg-body-secondary mt-4 rounded-4" style="aspect-ratio: 12/6;">
-            <img 
+            <!-- <img 
                 title="Фотограф: Yan Krukau: https://www.pexels.com/ru-ru/photo/7793727/" 
                 class="w-100 h-auto bg-body-secondary rounded-4" 
                 style="aspect-ratio: 12/6;object-fit: cover;" 
@@ -19,7 +19,8 @@
                 sizes="(max-width: 768px) 95vw, 1296px"
                 alt=""
                 loading="lazy"
-            />
+            /> -->
+            <video title="Автор видео: Gustavo Fring: https://www.pexels.com/ru-ru/video/6285688/" loading="lazy" style="aspect-ratio: 12/6;object-fit: cover;"  class="w-100 h-auto bg-body-secondary rounded-4" src="/img/promo.mp4" autoplay muted loop="true""></video>
         </div>
     </div>
 </template>
