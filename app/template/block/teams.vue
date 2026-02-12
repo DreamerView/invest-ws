@@ -1,5 +1,5 @@
 <template>
-    <div class="container mt-5">
+    <div class="container my-5">
         <div style="max-width:600px;width:100%">
             <div class="d-flex align-items-center gap-3">
                 <div style="width:0.6rem;height:0.6rem" class="rounded-circle bg-dark"></div>
@@ -50,6 +50,12 @@
 <script setup>
     const teams_list = [
         {
+            id:"team-6",
+            name:"Marcus Mango",
+            desc:"Head of Marteking",
+            author:"Фотограф: SAULO LEITE: https://www.pexels.com/ru-ru/photo/19719797/"
+        },
+        {
             id:"team-1",
             name:"Marcus Mango",
             desc:"Head of Marteking",
@@ -67,5 +73,17 @@
             desc:"Head of Marteking",
             author:"Фотограф: SAULO LEITE: https://www.pexels.com/ru-ru/photo/19719797/"
         },
+        {
+            id:"team-4",
+            name:"Marcus Mango",
+            desc:"Head of Marteking",
+            author:"Фотограф: SAULO LEITE: https://www.pexels.com/ru-ru/photo/19719797/"
+        },
+        {
+            id:"team-5",
+            name:"Marcus Mango",
+            desc:"Head of Marteking",
+            author:"Фотограф: SAULO LEITE: https://www.pexels.com/ru-ru/photo/19719797/"
+        }
     ]
 </script>

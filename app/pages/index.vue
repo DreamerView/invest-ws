@@ -6,6 +6,7 @@
         <Slide />
         <Discover />
         <Teams />
+        <Reviews />
     </div>
 </template>
 
@@ -16,4 +17,5 @@
     import Stats from '~/template/block/stats.vue';
     import Discover from '~/template/block/discover.vue';
     import Teams from '~/template/block/teams.vue';
+    import Reviews from '~/template/block/reviews.vue';
 </script>
