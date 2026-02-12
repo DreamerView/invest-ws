@@ -6,7 +6,7 @@
                     <img loading="lazy" src="/logo.png" style="max-width:100px;width:100%;" alt=""/>
                 </div>
                 <div class="col-md-8 order-md-2 order-3 mt-md-0 mt-4 overflow-x-auto h-100">
-                    <div class="d-flex align-items-center justify-content-center gap-5 h-100">
+                    <div class="d-flex align-items-center justify-content-center gap-lg-5 gap-4 h-100">
                         <a class="link-secondary text-decoration-none flex-shrink-0" href="">Home</a>
                         <a class="link-secondary text-decoration-none flex-shrink-0" href="">Services</a>
                         <a class="link-secondary text-decoration-none flex-shrink-0" href="">About us</a>
