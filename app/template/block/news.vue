@@ -1,5 +1,5 @@
 <template>
-    <div class="container my-5">
+    <div class="container my-5" data-aos="fade">
         <div style="max-width:600px;width:100%">
             <div class="d-flex align-items-center gap-3">
                 <div style="width:0.6rem;height:0.6rem" class="rounded-circle bg-dark"></div>
@@ -8,7 +8,7 @@
             <h1 class="display-4 mt-2">Latest insights and trends</h1>
         </div>
         <div class="row mt-md-5 mt-2 g-4">
-            <div v-for="list in news_list" class="col-xl-4 col-md-6">
+            <div v-for="(list,index) in news_list" data-aos="fade" :data-aos-delay="index*300" class="col-xl-4 col-md-6">
                 <div class="px-3 px-md-0 mb-4 mb-md-0">
                     <div class="w-100 h-auto bg-body-secondary rounded-4" style="aspect-ratio: 1;">
                         <img loading="lazy" class="w-100 h-auto bg-body-secondary rounded-4" style="aspect-ratio: 1;object-fit: cover;" :src="list.img" v-if="list.img" alt=""/>

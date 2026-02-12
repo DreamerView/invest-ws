@@ -1,0 +1,14 @@
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+export default defineNuxtPlugin((nuxtApp) => {
+  nuxtApp.hook('page:finish', () => {
+    requestAnimationFrame(() => {
+      AOS.init({
+        duration: 800,
+        once: true,
+        offset: 100
+      })
+    })
+  })
+})
