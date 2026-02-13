@@ -10,7 +10,7 @@
         </div>
         <div class="w-100  mt-5">
             <div class="row g-4 px-4 px-sm-0">
-                <div v-for="(list,index) in teams_list" data-aos="fade-up" :data-aos-delay="index*300" class="col-xl-4 col-md-6">
+                <div v-for="(list,index) in teams_list" data-aos="fade-up" :data-aos-delay="index*150" class="col-xl-4 col-md-6">
                     <div class="w-100 h-auto bg-body-secondary rounded-4 position-relative" style="aspect-ratio: 1;">
                         <img 
                             v-if="list.id" 

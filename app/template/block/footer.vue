@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid bg-black py-5 text-body" data-aos="fade-up" data-bs-theme="dark">
+    <div class="container-fluid bg-black py-5 text-body" data-aos="fade" data-bs-theme="dark">
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-6 col-12 d-flex flex-column justify-content-between gap-4">

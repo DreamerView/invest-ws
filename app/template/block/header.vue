@@ -1,5 +1,5 @@
 <template>
-    <header data-aos="fade-up" class="container-fluid py-3 position-sticky top-0 bg-body" style="z-index:999">
+    <header data-aos="fade" class="container-fluid py-3 position-sticky top-0 bg-body" style="z-index:999">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-2 col-6 order-md-1 order-1" data-aos="fade-right" data-aos-delay="100">

@@ -8,7 +8,7 @@
             <h1 class="display-4 mt-2">Latest insights and trends</h1>
         </div>
         <div class="row mt-md-5 mt-2 g-4">
-            <div v-for="(list,index) in news_list" data-aos="fade" :data-aos-delay="index*300" class="col-xl-4 col-md-6">
+            <div v-for="(list,index) in news_list" data-aos="fade-right" :data-aos-delay="index*150" class="col-xl-4 col-md-6">
                 <div class="px-3 px-md-0 mb-4 mb-md-0">
                     <div class="w-100 h-auto bg-body-secondary rounded-4" style="aspect-ratio: 1;">
                         <img loading="lazy" class="w-100 h-auto bg-body-secondary rounded-4" style="aspect-ratio: 1;object-fit: cover;" :src="list.img" v-if="list.img" alt=""/>

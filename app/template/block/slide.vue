@@ -1,7 +1,7 @@
 <template>
     <div class="container mt-5 pt-md-5 px-4 px-lg-0">
         <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-5 col-12" data-aos="fade-up">
+            <div class="col-xl-6 col-lg-5 col-12" data-aos="fade-up" data-aos-delay="150">
                 <div class="w-100 h-auto bg-body-secondary rounded-4" style="aspect-ratio: 1;">
                     <img 
                         src="/img/slides/img-648.webp" 
@@ -19,7 +19,7 @@
                         alt=""/>
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-7 col-12 px-md-5 py-sm-4 pt-4 d-flex flex-column gap-lg-5 gap-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-xl-6 col-lg-7 col-12 px-md-5 py-sm-4 pt-4 d-flex flex-column gap-lg-5 gap-3" data-aos="fade-up" data-aos-delay="450">
                 <div class="d-flex flex-column gap-3">
                     <div class="d-flex align-items-center gap-3">
                         <div style="width:0.6rem;height:0.6rem" class="rounded-circle bg-dark"></div>
